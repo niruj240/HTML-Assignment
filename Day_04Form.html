@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Registration Form</title>
+     <style>
+         *{
+             margin: 0%;
+             padding: 10px;
+                     }
+         form{
+             background-image: url(https://previews.123rf.com/images/gloriaolsy/gloriaolsy1905/gloriaolsy190520086/125752111-light-gradient-abstract-background-for-website-pattern-banner-or-poster-vector-illustration.jpg);
+             background-size: 100%  100%;
+             
+         }
+         .button, h3{
+             text-align: center;
+             color: rgb(173, 46, 46);
+             
+         }
+         .submit:hover{
+             background-color: blueviolet;
+             color: rgb(168, 238, 37);
+         }
+     </style>
+     
+</head>
+<body>
+    <form action="">
+        <h3>Personal Detail</h3><hr>
+        <label> Name:   </label>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name"><br><br>
+
+        <label>D.O.B. :</label>
+        <input type="date" name="start" id="start" >
+        
+    
+
+        <label> Email :</label>
+        <input type="email" placeholder="ex : niruj@email.com"><br><br>
+
+        <label>Contact No.</label>
+        <input type="text" placeholder="+01-9876543210"><br>
+        
+        <label>Gender :</label><br>
+        <input type="radio" name="gender" value="male"> Male <br>
+        <input type="radio" name="gender" value="female"> Female <br>
+        <input type="radio" name="gender" value="transgender"> Transgender <br>
+        <input type="radio" name="gender" value="other"> Other <br>
+        <input type="radio" name="gender" value="prefer no to say"> Prefer no to say<br><br>
+          
+        <label>Address :</label><br>
+        <input type="text" input size="100%"  placeholder="Flat, House no., Building, Company, Apartment" ><br>
+         <input type="text" input size="100%" placeholder="Area, Colony, Street, Sector, Village"><br>
+        <input type="text" input size="100%" placeholder="Landmark e.g.behind J.N.V."><br>
+           <input type="text" input size="100%" placeholder="Town/City"><br>
+        <select name="State"  id="State"> 
+            <option value="Select Your State">Select Your State</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+        <option value="Assam">Assam</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Chandigarh">Chandigarh</option>
+        <option value="Chhattisgarh">Chhattisgarh</option>
+        <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+        <option value="Daman and Diu">Daman and Diu</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Lakshadweep">Lakshadweep</option>
+        <option value="Puducherry">Puducherry</option>
+        <option value="Goa">Goa</option>
+        <option value="Gujarat">Gujarat</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Himachal Pradesh">Himachal Pradesh</option>
+        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+        <option value="Jharkhand">Jharkhand</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Madhya Pradesh">Madhya Pradesh</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Manipur">Manipur</option>
+        <option value="Meghalaya">Meghalaya</option>
+        <option value="Mizoram">Mizoram</option>
+        <option value="Nagaland">Nagaland</option>
+        <option value="Odisha">Odisha</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Sikkim">Sikkim</option>
+        <option value="Tamil Nadu">Tamil Nadu</option>
+        <option value="Telangana">Telangana</option>
+        <option value="Tripura">Tripura</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="Uttarakhand">Uttarakhand</option>
+        <option value="West Bengal">West Bengal</option>
+        </select><br><br>
+
+        <label>Where did you hear about us?</label><br>
+        <input type="checkbox" name="Where" id="Friend"> A Friend or colleague <br>
+        <input type="checkbox" name="Where" id="Google"> Google <br>
+        <input type="checkbox" name="Where" id="News Article"> News Article <br>
+        <input type="checkbox" name="Where" id="Youtube"> Youtube <br>
+
+        <div class="button">
+        <input type="submit" value="Final Submit" 
+        class="submit"
+        >
+        
+        
+        </div>
+    </form>
+</body>
+</html>
